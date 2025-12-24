@@ -124,6 +124,10 @@ Galaga/
 ## 🎨 Screenshots
 
 *Game in action - Classic arcade gameplay!*
+<img width="680" height="704" alt="image" src="https://github.com/user-attachments/assets/91a19076-2048-4316-841c-b6dfd6e849d2" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6c08ef85-09c8-413c-9337-cc695fc17afd" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8ef3acd5-0420-4d95-b669-f7d04dad1b78" />
 
 ## 💻 Technologies
 
