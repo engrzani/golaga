@@ -6,6 +6,22 @@ A Java implementation of the classic Galaga arcade game with modern features.
 ![Status](https://img.shields.io/badge/Status-Complete-success.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
+---
+
+## 🎮 PLAY NOW!
+
+### ⬇️ **[DOWNLOAD GAME (Galaga.jar)](https://github.com/engrzani/golaga/raw/main/Galaga.jar)** ⬇️
+
+**Quick Start:**
+1. Click the download link above
+2. Make sure Java is installed on your computer
+3. Double-click `Galaga.jar` OR run: `java -jar Galaga.jar`
+4. **Press SPACE to start playing!**
+
+> 💡 **Don't have Java?** Download from: https://www.java.com/download/
+
+---
+
 ## 🎮 Features
 
 - **Classic Gameplay** - Authentic Galaga arcade experience
@@ -17,16 +33,27 @@ A Java implementation of the classic Galaga arcade game with modern features.
 - **Pause/Resume** - Press P to pause
 - **ASCII Sprite System** - Custom sprite rendering
 
-## 📥 Download & Play
+## 📥 Three Ways to Play
 
-### Quick Start (Windows)
-1. Download `Galaga.jar` from [Releases](../../releases)
-2. Double-click to run, or use: `java -jar Galaga.jar`
+### 🎯 Method 1: Download JAR (Easiest)
+**[👉 CLICK HERE TO DOWNLOAD GALAGA.JAR](https://github.com/engrzani/golaga/raw/main/Galaga.jar)**
 
-### From Source
+Then run:
 ```bash
-git clone <repository-url>
-cd Galaga
+java -jar Galaga.jar
+```
+
+### 🔧 Method 2: Clone & Play
+```bash
+git clone https://github.com/engrzani/golaga.git
+cd golaga
+java -jar Galaga.jar
+```
+
+### 💻 Method 3: Build from Source
+```bash
+git clone https://github.com/engrzani/golaga.git
+cd golaga
 javac -d bin src/engine/*.java src/game/*.java src/game/actors/*.java
 java -cp bin engine.App
 ```
